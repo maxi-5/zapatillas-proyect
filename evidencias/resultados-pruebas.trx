@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="53390751-59b3-4e5a-ba0a-b8563efc4e53" name="maxim@LAPTOP-VV4ACHME 2026-10-26 00:20:40" runUser="LAPTOP-VV4ACHME\maxim" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-26T00:20:40.7695920-03:00" queuing="2026-10-26T00:20:40.7695929-03:00" start="2026-10-26T00:20:33.2360100-03:00" finish="2026-10-26T00:20:46.8592780-03:00" />
+  <TestSettings name="default" id="5008baf5-4dac-4ad8-a100-8eee364f7274">
+    <Deployment runDeploymentRoot="maxim_LAPTOP-VV4ACHME_2026-10-26_00_20_40" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fb48e23d-47e0-4a7a-8044-caf5aac91977" testId="f22c21d4-add4-8c1d-d13b-7938bd4cb418" testName="ZapatillasProject.Tests.VentasTests.PostVenta_SinStock_Devuelve409" computerName="LAPTOP-VV4ACHME" duration="00:00:00.4261074" startTime="2026-10-26T00:20:46.1233315-03:00" endTime="2026-10-26T00:20:46.5492968-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb48e23d-47e0-4a7a-8044-caf5aac91977" />
+    <UnitTestResult executionId="a59b3c00-9135-4f13-a48d-46721dbf5f2c" testId="b2ca57aa-8d0a-ffce-30ef-706742b9e2d3" testName="ZapatillasProject.Tests.VentasTests.PostVenta_CalculaMontoYDescuentaStock" computerName="LAPTOP-VV4ACHME" duration="00:00:01.6977426" startTime="2026-10-26T00:20:43.3940146-03:00" endTime="2026-10-26T00:20:45.0921062-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a59b3c00-9135-4f13-a48d-46721dbf5f2c" />
+    <UnitTestResult executionId="91fb4031-0519-436a-aa73-0f697b79ad0a" testId="2022bf4e-9720-f085-a15d-2f6f43797d4e" testName="ZapatillasProject.Tests.AuthTests.ListarUsuarios_ComoCliente_Devuelve403" computerName="LAPTOP-VV4ACHME" duration="00:00:01.1760507" startTime="2026-10-26T00:20:41.8910152-03:00" endTime="2026-10-26T00:20:43.0665421-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91fb4031-0519-436a-aa73-0f697b79ad0a" />
+    <UnitTestResult executionId="4acf46fd-1e15-4b9c-b9be-c122229d28ad" testId="91d498b8-0e46-fcef-4397-f5c8d5e5814b" testName="ZapatillasProject.Tests.ZapatillasTests.GetZapatillas_EsPublico_Devuelve200" computerName="LAPTOP-VV4ACHME" duration="00:00:00.0333716" startTime="2026-10-26T00:20:44.0124179-03:00" endTime="2026-10-26T00:20:44.0457661-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4acf46fd-1e15-4b9c-b9be-c122229d28ad" />
+    <UnitTestResult executionId="29813828-8642-4ba6-8e10-7dedb82dd604" testId="bb9fe4a7-88b6-a662-d4db-c2e605ad724a" testName="ZapatillasProject.Tests.VentasTests.GetVentas_ComoCliente_Devuelve403" computerName="LAPTOP-VV4ACHME" duration="00:00:01.1865848" startTime="2026-10-26T00:20:42.2085471-03:00" endTime="2026-10-26T00:20:43.3936911-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29813828-8642-4ba6-8e10-7dedb82dd604" />
+    <UnitTestResult executionId="015fcf84-4155-430b-952b-362464733bf4" testId="47bd3e5b-0899-5672-8673-8bb2b325446c" testName="ZapatillasProject.Tests.ZapatillasTests.GetZapatillas_FiltroPorMarca_SoloDevuelveEsaMarca" computerName="LAPTOP-VV4ACHME" duration="00:00:00.6530508" startTime="2026-10-26T00:20:40.9107894-03:00" endTime="2026-10-26T00:20:41.5636698-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="015fcf84-4155-430b-952b-362464733bf4" />
+    <UnitTestResult executionId="18cb9264-4d80-4152-af7c-d7179e4a5fd9" testId="a2e1aadb-c25b-667c-c0e8-6dd5acdd40d6" testName="ZapatillasProject.Tests.ZapatillasTests.GetZapatilla_Inexistente_Devuelve404" computerName="LAPTOP-VV4ACHME" duration="00:00:00.0856351" startTime="2026-10-26T00:20:40.8255700-03:00" endTime="2026-10-26T00:20:40.9100717-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18cb9264-4d80-4152-af7c-d7179e4a5fd9" />
+    <UnitTestResult executionId="dc1af614-4e43-495f-a731-226c9acc0862" testId="7dea6b12-a0be-57ad-3ffc-7d28634de94c" testName="ZapatillasProject.Tests.AuthTests.Registro_CreaUsuarioConRolCliente" computerName="LAPTOP-VV4ACHME" duration="00:00:00.5600813" startTime="2026-10-26T00:20:41.3292965-03:00" endTime="2026-10-26T00:20:41.8899842-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc1af614-4e43-495f-a731-226c9acc0862" />
+    <UnitTestResult executionId="fcf7927c-2eb1-461c-b68d-627edafebe50" testId="0bf3975b-afb9-9dfe-8964-f4806fabce4d" testName="ZapatillasProject.Tests.VentasTests.PostVenta_TipoPagoInvalido_Devuelve400" computerName="LAPTOP-VV4ACHME" duration="00:00:01.0298413" startTime="2026-10-26T00:20:45.0924589-03:00" endTime="2026-10-26T00:20:46.1226773-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcf7927c-2eb1-461c-b68d-627edafebe50" />
+    <UnitTestResult executionId="9b28f2bd-a942-4607-94b3-74b5a2f990cf" testId="d0985b60-e30e-e8f9-491e-ada9852c8b90" testName="ZapatillasProject.Tests.AuthTests.Registro_ConEmailInvalido_Devuelve400" computerName="LAPTOP-VV4ACHME" duration="00:00:00.0258492" startTime="2026-10-26T00:20:41.3040578-03:00" endTime="2026-10-26T00:20:41.3290140-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b28f2bd-a942-4607-94b3-74b5a2f990cf" />
+    <UnitTestResult executionId="6af801dd-cda7-418e-9416-f0e4067eccf2" testId="94709650-3530-ea5d-a700-9a4de59d9ba2" testName="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_SinToken_Devuelve401" computerName="LAPTOP-VV4ACHME" duration="00:00:00.0112843" startTime="2026-10-26T00:20:42.8954843-03:00" endTime="2026-10-26T00:20:42.9092344-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6af801dd-cda7-418e-9416-f0e4067eccf2" />
+    <UnitTestResult executionId="05189447-e636-42ec-8b8a-f384f4cb7d0b" testId="f943aa7f-2d80-7bb2-edab-e1cdec7af4b1" testName="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_DatosInvalidos_Devuelve400" computerName="LAPTOP-VV4ACHME" duration="00:00:05.2826034" startTime="2026-10-26T00:20:35.5333982-03:00" endTime="2026-10-26T00:20:40.8237217-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05189447-e636-42ec-8b8a-f384f4cb7d0b" />
+    <UnitTestResult executionId="a9ec862d-7256-4c69-bf33-9d22ec8b9240" testId="e4c362b9-c058-cc70-8ed6-80e696c5c6cd" testName="ZapatillasProject.Tests.AuthTests.Login_ConPasswordIncorrecta_Devuelve401" computerName="LAPTOP-VV4ACHME" duration="00:00:00.5884298" startTime="2026-10-26T00:20:40.7403159-03:00" endTime="2026-10-26T00:20:41.3024939-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9ec862d-7256-4c69-bf33-9d22ec8b9240" />
+    <UnitTestResult executionId="34dda447-ab41-434e-bc3e-05c53c703bc0" testId="3347048a-cbd2-1e29-a109-522476efc954" testName="ZapatillasProject.Tests.VentasTests.PostResena_ValoracionFueraDeRango_Devuelve400" computerName="LAPTOP-VV4ACHME" duration="00:00:06.6667306" startTime="2026-10-26T00:20:35.5305546-03:00" endTime="2026-10-26T00:20:42.2058427-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34dda447-ab41-434e-bc3e-05c53c703bc0" />
+    <UnitTestResult executionId="cd937f84-5e9f-4432-a906-5cec6e86e38c" testId="449d4fa1-5d2f-a81b-1ed0-3ed4c0dde93e" testName="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_ComoCliente_Devuelve403" computerName="LAPTOP-VV4ACHME" duration="00:00:01.1017763" startTime="2026-10-26T00:20:42.9095418-03:00" endTime="2026-10-26T00:20:44.0119940-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd937f84-5e9f-4432-a906-5cec6e86e38c" />
+    <UnitTestResult executionId="6cc4a360-0ff7-4d52-bdcf-8e067c15cc86" testId="bfebcd81-3693-ff8e-8bbc-4f25e81dce2b" testName="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_MarcaInexistente_Devuelve400" computerName="LAPTOP-VV4ACHME" duration="00:00:00.6088575" startTime="2026-10-26T00:20:42.2859200-03:00" endTime="2026-10-26T00:20:42.8951487-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cc4a360-0ff7-4d52-bdcf-8e067c15cc86" />
+    <UnitTestResult executionId="503d8032-9c75-47cd-9ee5-b230b6e8fe08" testId="70981fb7-c8bc-cde6-504e-4498677fa2c5" testName="ZapatillasProject.Tests.AuthTests.Login_ConCredencialesCorrectas_DevuelveToken" computerName="LAPTOP-VV4ACHME" duration="00:00:05.1614208" startTime="2026-10-26T00:20:35.5330491-03:00" endTime="2026-10-26T00:20:40.7097279-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="503d8032-9c75-47cd-9ee5-b230b6e8fe08" />
+    <UnitTestResult executionId="43a95aeb-9d45-41ed-ad19-b78f63146226" testId="df1f0a3f-bf78-7a60-825b-f93a479e13d1" testName="ZapatillasProject.Tests.ZapatillasTests.CrudCompleto_ComoAdmin_FuncionaConCodigosCorrectos" computerName="LAPTOP-VV4ACHME" duration="00:00:00.7214031" startTime="2026-10-26T00:20:41.5639913-03:00" endTime="2026-10-26T00:20:42.2856669-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43a95aeb-9d45-41ed-ad19-b78f63146226" />
+    <UnitTestResult executionId="83ec6fa9-f2b2-4cb4-8a28-4c205d151d4e" testId="e2d8a35b-aaa8-8752-c421-f03ef6554465" testName="ZapatillasProject.Tests.AuthTests.Registro_ConEmailRepetido_Devuelve409" computerName="LAPTOP-VV4ACHME" duration="00:00:00.5586449" startTime="2026-10-26T00:20:43.0915215-03:00" endTime="2026-10-26T00:20:43.6258489-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83ec6fa9-f2b2-4cb4-8a28-4c205d151d4e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ZapatillasProject.Tests.AuthTests.ListarUsuarios_ComoCliente_Devuelve403" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="2022bf4e-9720-f085-a15d-2f6f43797d4e">
+      <Execution id="91fb4031-0519-436a-aa73-0f697b79ad0a" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.AuthTests" name="ListarUsuarios_ComoCliente_Devuelve403" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.VentasTests.PostVenta_SinStock_Devuelve409" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="f22c21d4-add4-8c1d-d13b-7938bd4cb418">
+      <Execution id="fb48e23d-47e0-4a7a-8044-caf5aac91977" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.VentasTests" name="PostVenta_SinStock_Devuelve409" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_SinToken_Devuelve401" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="94709650-3530-ea5d-a700-9a4de59d9ba2">
+      <Execution id="6af801dd-cda7-418e-9416-f0e4067eccf2" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="PostZapatilla_SinToken_Devuelve401" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.GetZapatillas_EsPublico_Devuelve200" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="91d498b8-0e46-fcef-4397-f5c8d5e5814b">
+      <Execution id="4acf46fd-1e15-4b9c-b9be-c122229d28ad" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="GetZapatillas_EsPublico_Devuelve200" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.AuthTests.Login_ConPasswordIncorrecta_Devuelve401" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="e4c362b9-c058-cc70-8ed6-80e696c5c6cd">
+      <Execution id="a9ec862d-7256-4c69-bf33-9d22ec8b9240" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.AuthTests" name="Login_ConPasswordIncorrecta_Devuelve401" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.VentasTests.PostVenta_CalculaMontoYDescuentaStock" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="b2ca57aa-8d0a-ffce-30ef-706742b9e2d3">
+      <Execution id="a59b3c00-9135-4f13-a48d-46721dbf5f2c" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.VentasTests" name="PostVenta_CalculaMontoYDescuentaStock" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.GetZapatillas_FiltroPorMarca_SoloDevuelveEsaMarca" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="47bd3e5b-0899-5672-8673-8bb2b325446c">
+      <Execution id="015fcf84-4155-430b-952b-362464733bf4" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="GetZapatillas_FiltroPorMarca_SoloDevuelveEsaMarca" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.AuthTests.Registro_ConEmailInvalido_Devuelve400" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="d0985b60-e30e-e8f9-491e-ada9852c8b90">
+      <Execution id="9b28f2bd-a942-4607-94b3-74b5a2f990cf" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.AuthTests" name="Registro_ConEmailInvalido_Devuelve400" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.VentasTests.PostVenta_TipoPagoInvalido_Devuelve400" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="0bf3975b-afb9-9dfe-8964-f4806fabce4d">
+      <Execution id="fcf7927c-2eb1-461c-b68d-627edafebe50" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.VentasTests" name="PostVenta_TipoPagoInvalido_Devuelve400" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.GetZapatilla_Inexistente_Devuelve404" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="a2e1aadb-c25b-667c-c0e8-6dd5acdd40d6">
+      <Execution id="18cb9264-4d80-4152-af7c-d7179e4a5fd9" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="GetZapatilla_Inexistente_Devuelve404" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_ComoCliente_Devuelve403" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="449d4fa1-5d2f-a81b-1ed0-3ed4c0dde93e">
+      <Execution id="cd937f84-5e9f-4432-a906-5cec6e86e38c" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="PostZapatilla_ComoCliente_Devuelve403" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.VentasTests.GetVentas_ComoCliente_Devuelve403" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="bb9fe4a7-88b6-a662-d4db-c2e605ad724a">
+      <Execution id="29813828-8642-4ba6-8e10-7dedb82dd604" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.VentasTests" name="GetVentas_ComoCliente_Devuelve403" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_DatosInvalidos_Devuelve400" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="f943aa7f-2d80-7bb2-edab-e1cdec7af4b1">
+      <Execution id="05189447-e636-42ec-8b8a-f384f4cb7d0b" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="PostZapatilla_DatosInvalidos_Devuelve400" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.PostZapatilla_MarcaInexistente_Devuelve400" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="bfebcd81-3693-ff8e-8bbc-4f25e81dce2b">
+      <Execution id="6cc4a360-0ff7-4d52-bdcf-8e067c15cc86" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="PostZapatilla_MarcaInexistente_Devuelve400" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.ZapatillasTests.CrudCompleto_ComoAdmin_FuncionaConCodigosCorrectos" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="df1f0a3f-bf78-7a60-825b-f93a479e13d1">
+      <Execution id="43a95aeb-9d45-41ed-ad19-b78f63146226" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.ZapatillasTests" name="CrudCompleto_ComoAdmin_FuncionaConCodigosCorrectos" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.AuthTests.Registro_ConEmailRepetido_Devuelve409" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="e2d8a35b-aaa8-8752-c421-f03ef6554465">
+      <Execution id="83ec6fa9-f2b2-4cb4-8a28-4c205d151d4e" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.AuthTests" name="Registro_ConEmailRepetido_Devuelve409" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.VentasTests.PostResena_ValoracionFueraDeRango_Devuelve400" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="3347048a-cbd2-1e29-a109-522476efc954">
+      <Execution id="34dda447-ab41-434e-bc3e-05c53c703bc0" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.VentasTests" name="PostResena_ValoracionFueraDeRango_Devuelve400" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.AuthTests.Login_ConCredencialesCorrectas_DevuelveToken" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="70981fb7-c8bc-cde6-504e-4498677fa2c5">
+      <Execution id="503d8032-9c75-47cd-9ee5-b230b6e8fe08" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.AuthTests" name="Login_ConCredencialesCorrectas_DevuelveToken" />
+    </UnitTest>
+    <UnitTest name="ZapatillasProject.Tests.AuthTests.Registro_CreaUsuarioConRolCliente" storage="c:\users\maxim\onedrive\desktop\zapatillasproject\zapatillasproject.tests\bin\debug\net10.0\zapatillasproject.tests.dll" id="7dea6b12-a0be-57ad-3ffc-7d28634de94c">
+      <Execution id="dc1af614-4e43-495f-a731-226c9acc0862" />
+      <TestMethod codeBase="C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject.Tests\bin\Debug\net10.0\ZapatillasProject.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ZapatillasProject.Tests.AuthTests" name="Registro_CreaUsuarioConRolCliente" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f22c21d4-add4-8c1d-d13b-7938bd4cb418" executionId="fb48e23d-47e0-4a7a-8044-caf5aac91977" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2ca57aa-8d0a-ffce-30ef-706742b9e2d3" executionId="a59b3c00-9135-4f13-a48d-46721dbf5f2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2022bf4e-9720-f085-a15d-2f6f43797d4e" executionId="91fb4031-0519-436a-aa73-0f697b79ad0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91d498b8-0e46-fcef-4397-f5c8d5e5814b" executionId="4acf46fd-1e15-4b9c-b9be-c122229d28ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb9fe4a7-88b6-a662-d4db-c2e605ad724a" executionId="29813828-8642-4ba6-8e10-7dedb82dd604" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47bd3e5b-0899-5672-8673-8bb2b325446c" executionId="015fcf84-4155-430b-952b-362464733bf4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2e1aadb-c25b-667c-c0e8-6dd5acdd40d6" executionId="18cb9264-4d80-4152-af7c-d7179e4a5fd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dea6b12-a0be-57ad-3ffc-7d28634de94c" executionId="dc1af614-4e43-495f-a731-226c9acc0862" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bf3975b-afb9-9dfe-8964-f4806fabce4d" executionId="fcf7927c-2eb1-461c-b68d-627edafebe50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0985b60-e30e-e8f9-491e-ada9852c8b90" executionId="9b28f2bd-a942-4607-94b3-74b5a2f990cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94709650-3530-ea5d-a700-9a4de59d9ba2" executionId="6af801dd-cda7-418e-9416-f0e4067eccf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f943aa7f-2d80-7bb2-edab-e1cdec7af4b1" executionId="05189447-e636-42ec-8b8a-f384f4cb7d0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4c362b9-c058-cc70-8ed6-80e696c5c6cd" executionId="a9ec862d-7256-4c69-bf33-9d22ec8b9240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3347048a-cbd2-1e29-a109-522476efc954" executionId="34dda447-ab41-434e-bc3e-05c53c703bc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="449d4fa1-5d2f-a81b-1ed0-3ed4c0dde93e" executionId="cd937f84-5e9f-4432-a906-5cec6e86e38c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfebcd81-3693-ff8e-8bbc-4f25e81dce2b" executionId="6cc4a360-0ff7-4d52-bdcf-8e067c15cc86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70981fb7-c8bc-cde6-504e-4498677fa2c5" executionId="503d8032-9c75-47cd-9ee5-b230b6e8fe08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df1f0a3f-bf78-7a60-825b-f93a479e13d1" executionId="43a95aeb-9d45-41ed-ad19-b78f63146226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2d8a35b-aaa8-8752-c421-f03ef6554465" executionId="83ec6fa9-f2b2-4cb4-8a28-4c205d151d4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)&#xD;
+[xUnit.net 00:00:00.73]   Discovering: ZapatillasProject.Tests&#xD;
+[xUnit.net 00:00:00.80]   Discovered:  ZapatillasProject.Tests&#xD;
+[xUnit.net 00:00:00.84]   Starting:    ZapatillasProject.Tests&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 10 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 10 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 10 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject[0]&#xD;
+      Usuario admin creado: admin@zapatillas.cl&#xD;
+info: ZapatillasProject[0]&#xD;
+      Usuario admin creado: admin@zapatillas.cl&#xD;
+info: ZapatillasProject[0]&#xD;
+      Usuario admin creado: admin@zapatillas.cl&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Testing&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Testing&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Testing&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\maxim\OneDrive\Desktop\ZapatillasProject\ZapatillasProject&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 949 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 949 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 949 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 400 en 105 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Zapatillas/99999&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Zapatillas/99999 respondio 404 en 82 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 201 en 250 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/StockTallas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/StockTallas respondio 201 en 84 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 401 en 582 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 400 en 21 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 565 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 201 en 11 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Zapatillas respondio 200 en 58 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 561 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 552 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 571 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 201 en 6 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Zapatillas/2&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Zapatillas/2 respondio 200 en 1 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; PUT /api/v1/Zapatillas/2&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 563 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Resenas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Resenas respondio 400 en 17 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- PUT /api/v1/Zapatillas/2 respondio 204 en 64 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Zapatillas/2&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Zapatillas/2 respondio 200 en 2 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; DELETE /api/v1/Zapatillas/2&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- DELETE /api/v1/Zapatillas/2 respondio 204 en 60 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Zapatillas/2&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Zapatillas/2 respondio 404 en 2 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 537 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 598 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 600 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 400 en 2 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 401 en 7 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 629 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/User&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/User respondio 403 en 3 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 576 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Ventas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Ventas respondio 403 en 1 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 566 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 527 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 409 en 2 ms (usuario: anonimo)&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 530 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 201 en 2 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/StockTallas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/StockTallas respondio 201 en 4 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 528 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 403 en 0 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/Zapatillas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/Zapatillas respondio 200 en 29 ms (usuario: anonimo)&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 501 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 482 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Ventas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 4 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Ventas respondio 201 en 127 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; GET /api/v1/StockTallas/zapatilla/2&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- GET /api/v1/StockTallas/zapatilla/2 respondio 200 en 30 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 486 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 201 en 8 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/StockTallas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/StockTallas respondio 201 en 2 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 380 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 143 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Ventas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Ventas respondio 400 en 1 ms (usuario: Cliente Test)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 136 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Zapatillas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Zapatillas respondio 201 en 2 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/StockTallas&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/StockTallas respondio 201 en 3 ms (usuario: Administrador)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/registro&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/registro respondio 201 en 135 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/User/login&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/User/login respondio 200 en 137 ms (usuario: anonimo)&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      --&gt; POST /api/v1/Ventas&#xD;
+info: ZapatillasProject.Middleware.LoggingMiddleware[0]&#xD;
+      &lt;-- POST /api/v1/Ventas respondio 409 en 4 ms (usuario: Cliente Test)&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[xUnit.net 00:00:11.91]   Finished:    ZapatillasProject.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
