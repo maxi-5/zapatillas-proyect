@@ -1,0 +1,12 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+TestResults/
+
+# secretos (nunca se suben)
+.env
+appsettings.*.local.json
+secrets.json

@@ -1,0 +1,28 @@
+@host = http://localhost:5047
+@token = PEGAR_TOKEN_AQUI
+
+### Login admin
+POST {{host}}/api/v1/User/login
+Content-Type: application/json
+
+{ "email": "admin@zapatillas.cl", "password": "Admin123!" }
+
+### Catalogo (publico)
+GET {{host}}/api/v1/Zapatillas
+Accept: application/json
+
+### Crear zapatilla (Admin)
+POST {{host}}/api/v1/Zapatillas
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "modelo": "Air Max 90",
+  "precio": 119990,
+  "foto": "https://example.com/airmax90.jpg",
+  "idCategoria": 2,
+  "idMarca": 1,
+  "descripcion": "Clasica urbana con camara de aire visible"
+}
+
+###
